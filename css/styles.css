@@ -367,10 +367,11 @@ footer {
 .messenger {
   display: block;
   margin-right: 13px;
+  transition: 0.5s ease;
 }
 
-.messenger-icon:hover {
-  background-color: green;
+.messenger path:hover {
+  fill: green;
 }
 
 .instagram:not(:last-child) {
